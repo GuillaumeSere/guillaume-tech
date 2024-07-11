@@ -1,0 +1,140 @@
+.container.contact__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact{
+    margin-bottom: 5rem;
+}
+
+.contacts{
+    font-size: 2.5rem;
+    color: rgb(0, 179, 255);
+}
+
+.contact__options{
+    display: flex;
+    margin-left: 10rem;
+    width: 20rem;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact__option{
+    background: rgb(0, 179, 255);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    color:black;
+    font-size: 25px;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+}
+
+.contact__option:hover{
+    background: transparent;
+    border-color: rgb(0, 179, 255);
+    color: rgb(225, 225, 225);
+}
+
+.contact__option-icon{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__option a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    font-size: 0.8rem;
+}
+.contact__option:hover a{
+    color: rgb(225, 225, 225);
+}
+
+.btn.btn-primary.contact{
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 179, 255);
+    cursor: pointer;
+}
+.btn.btn-primary.contact:hover{
+    background-color: rgb(0, 179, 255);
+    color: rgb(225, 225, 225);
+}
+
+form{
+    display: grid;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 40%;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(0, 179, 255);
+    resize: none;
+}
+
+.modal{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    width: 350px;
+    height: 200px;
+    background:  black;
+    color:rgb(0, 179, 255);
+    border: 2px solid rgb(0, 179, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal-message{
+    font-size: 20px;
+    text-align: center;
+}
+
+.modal-btn{
+    position: absolute;
+    color: rgb(0, 179, 255);
+    border: 2px solid rgb(0, 179, 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-weight: bold;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+}
+
+.modal-btn:hover{
+    background: rgb(0, 179, 255);
+    color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* ================ media query (medium) ===================== */
+@media screen and (max-width: 1024px){
+    .container.contact__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+}
+
+/* ================ media query (small) ===================== */
+@media screen and (max-width: 600px){
+    .container.contact__container{
+        width: 80%;
+    }
+
+}

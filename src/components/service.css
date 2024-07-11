@@ -1,0 +1,26 @@
+.service{
+    text-align: center;
+    margin-top: 3rem;
+    color:rgb(225, 225, 225);
+}
+.service span{
+    color:rgb(0, 179, 255);
+}
+.number{
+    font-size: 30px;
+    margin-top: 1rem;
+    text-align: center;
+    height: 30px;
+    font-weight: bold;
+}
+.text{
+    margin-top: 1rem;
+    display: flex;
+    line-height: 3rem;
+   flex-direction: column;
+}
+h2{
+    margin: 2rem;
+    text-align: center;
+    color:rgb(225, 225, 225);
+}
