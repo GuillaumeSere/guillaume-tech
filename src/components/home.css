@@ -11,7 +11,7 @@
     padding: 1rem;
     border-radius: 15px;
     font-size: 18px;
-    line-height: 3rem;
+    line-height: 2.5rem;
     letter-spacing: 1.5px;
     background-color: black;
     box-shadow: 2px 3px 3px 0px #d8d5d5;
@@ -19,4 +19,12 @@
 }
 .info span{
     color:rgb(0, 179, 255);
+}
+
+@media screen and (max-width: 1024px){
+    .info{
+        width: 80%;
+        line-height: 30px;
+    }
+
 }
