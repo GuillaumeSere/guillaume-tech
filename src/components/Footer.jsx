@@ -22,9 +22,9 @@ const Footer = () => {
             <div className="carre3"></div>
 
             <div className="footer__socials">
-                <a href="https://www.npmjs.com/~guillaumesere" target="_blank" title="Visitez mon profil NPM"><SiNpm /></a>
-                <a href="https://www.linkedin.com/in/guillaume-s%C3%A9r%C3%A9-2019a7116/" target="_blank" title="Connectez-vous avec moi sur LinkedIn"><ImLinkedin /></a>
-                <a href="https://github.com/GuillaumeSere" target="_blank" title="Explorez mes projets sur GitHub"><ImGithub /></a>
+                <a href="https://www.npmjs.com/~guillaumesere" target="_blank" rel="noreferrer" title="Visitez mon profil NPM"><SiNpm /></a>
+                <a href="https://www.linkedin.com/in/guillaume-s%C3%A9r%C3%A9-2019a7116/" target="_blank" rel="noreferrer" title="Connectez-vous avec moi sur LinkedIn"><ImLinkedin /></a>
+                <a href="https://github.com/GuillaumeSere" target="_blank" rel="noreferrer" title="Explorez mes projets sur GitHub"><ImGithub /></a>
             </div>
 
             <div className="footer__copyright">

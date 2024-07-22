@@ -20,14 +20,20 @@ h1{
     border-radius: 15px;
     line-height: 2.5rem;
     letter-spacing: 1.5px;
+    text-align: center; 
   }
   
   .box:nth-child(2n) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #000000;
+    font-size: 40px;
   }
-  
-  .box:nth-child(2n+1) {
-    background-color: #000000;
+
+  .box:nth-child(2n) span{
+    font-size: 30px;
   }
   
   .box p {
@@ -36,6 +42,7 @@ h1{
   }
   
   .box span {
+    position: relative;
     font-weight: bold;
     font-size: 18px;
     color:rgb(0, 179, 255);
@@ -46,5 +53,11 @@ h1{
     .box-container{
         grid-template-columns: none;
     }
+
+    .box:nth-child(2n) span{
+        background-color: #000000;
+        font-size: 25px;
+      }
+      
 
 }

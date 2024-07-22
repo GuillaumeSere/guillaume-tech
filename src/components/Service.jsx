@@ -7,7 +7,7 @@ const Service = () => {
             <h1>Sur <span>Beauvais</span> appelez vite !</h1>
             <div className="text">
             <span className='number'>06.60.40.09.24</span>
-            <h2>👍 Services Proposés :<br/>
+            <h2>👍 <u>Services Proposés</u> :<br/>
             🖥️ Formation de base en informatique (utilisation des ordinateurs, tablettes et smartphones) 💻<br/>
             📑 Assistance pour les démarches administratives en ligne (impôts, sécurité sociale, démarches
                 bancaires, etc.) ⌨️<br/>
