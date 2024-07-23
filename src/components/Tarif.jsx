@@ -13,16 +13,16 @@ const Tarif = () => {
                     <p>Le contrôle du fonctionnement optimal de votre système, après installation.</p>
                 </div>
                 <div className="box">
-                    <span>60 € de l'heure</span><br />
-                    <span>30 € après la réduction d'impôts</span>
+                    <span className='price'>60 € de l'heure</span><br />
+                    <span className='price'>30 € après la réduction d'impôts</span>
                 </div>
                 <div className="box">
                     <p>Formation et aides au démarches sur internet.</p>
                     <p>Installation d'applications au besoin</p>
                 </div>
                 <div className="box">
-                    <span>50 € de l'heure</span><br />
-                    <span>25 € après la réduction d'impôts</span>
+                    <span className='price'>50 € de l'heure</span><br />
+                    <span className='price'>25 € après la réduction d'impôts</span>
                 </div>
                 <div className="box">
                     <p><strong><u>Introduction au codage</u>:</strong> Premiers pas avec la programmation</p>
@@ -55,7 +55,7 @@ const Tarif = () => {
                         Ressources pour un apprentissage et une pratique plus poussés</p>
                 </div>
                 <div className="box">
-                    <span>150 € la prestation</span><br />
+                    <span className='price'>150 € la prestation</span><br />
                 </div>
             </div>
         </div>
