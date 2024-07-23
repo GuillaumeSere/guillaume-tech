@@ -13,6 +13,17 @@
     height: 30px;
     font-weight: bold;
 }
+.langages{
+    position: absolute;
+    width: 80px;
+    padding-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+.github{
+    position: absolute;
+    margin-left: -2rem;
+    margin-top: 0.7rem;
+}
 .text{
     margin-top: 1rem;
     display: flex;
