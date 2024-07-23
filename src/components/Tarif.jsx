@@ -30,7 +30,7 @@ const Tarif = () => {
                         et acquerrez une expérience pratique du codage.
                         Vous commencerez par configurer votre propre environnement de codage,
                         notamment en installant un éditeur et en configurant votre espace de travail.</p>
-                    <p>Langage: HTML, CSS, Javascript</p>
+                    <p>Langages: HTML, CSS, Javascript</p>
                     <strong><u>Plan de cours</u>:</strong>
                     <p>Introduction au codage <span>(10 minutes) </span>
                         Qu'est-ce que le codage et pourquoi est-il important ?
