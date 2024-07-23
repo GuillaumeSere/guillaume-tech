@@ -8,7 +8,8 @@ const Service = () => {
         <div className='service'>
             <h1>Sur <span>Beauvais</span> appelez vite !</h1>
             <div className="text">
-            <span className='number'>06.60.40.09.24</span>
+            <span className='number'>📱 06.60.40.09.24</span>
+            <span className='number'><a className='link' href="mailto:guillaumesere60@gmail.com" target="_blank" rel="noreferrer">📧 guillaumesere60@gmail.com</a></span>
             <h2>👍 <u>Services Proposés</u> :<br/>
             🖥️ Formation de base en informatique (utilisation des ordinateurs, tablettes et smartphones) 💻<br/>
             📑 Assistance pour les démarches administratives en ligne (impôts, sécurité sociale, démarches
