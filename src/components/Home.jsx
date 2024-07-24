@@ -16,10 +16,10 @@ const Home = () => {
                 </Player>
             </div>
             <div className="info">
-                Dans une société de plus en plus <span>digitalisée</span>, de nombreuses personnes éprouvent des difficultés à
+               <p> Dans une société de plus en plus <span>digitalisée</span>, de nombreuses personnes éprouvent des difficultés à
                 utiliser les outils <span>informatiques</span> et à réaliser des démarches en ligne. Ces difficultés peuvent
                 concerner aussi bien des jeunes que des personnes âgées. L'objectif est de répondre à ce
-                besoin croissant d'<span>assistance</span> et d'<span>accompagnement</span> dans le domaine informatique.
+                besoin croissant d'<span>assistance</span> et d'<span>accompagnement</span> dans le domaine informatique.</p>
             </div>
         </div>
     )
