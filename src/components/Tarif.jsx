@@ -55,7 +55,7 @@ const Tarif = () => {
                         Ressources pour un apprentissage et une pratique plus poussés</p>
                 </div>
                 <div className="box">
-                    <span className='price'>150 € la prestation</span><br />
+                    <span className='prices'>150 € la prestation</span><br />
                 </div>
             </div>
         </div>

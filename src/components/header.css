@@ -15,12 +15,16 @@
 .title{
     position: relative;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 500;
     text-transform: uppercase;
+    color: white;
+    text-align: justify;
 }
 .title span{
     color:rgb(0, 179, 255);
 }
 .sub-title{
     margin-top: .2rem;
+    font-size: 18px;
+    font-weight: 500;
 }
