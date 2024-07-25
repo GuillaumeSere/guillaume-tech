@@ -88,7 +88,7 @@
       }
       .price{
         padding: 1rem;
-        background: rgb(0, 179, 255) !important;
+        background: linear-gradient(90deg,#00b3ff 0%, #193843 100%) !important;
         color: black !important;
         border-radius: 20px;
       }
