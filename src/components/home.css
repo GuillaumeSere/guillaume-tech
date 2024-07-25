@@ -13,8 +13,8 @@
     font-size: 18px;
     line-height: 2.5rem;
     letter-spacing: 1.5px;
-    background-color: black;
-    box-shadow: 2px 3px 3px 0px #d8d5d5;
+    background:linear-gradient(222deg, rgba(0, 172, 229, 0.5) -208.03%, rgba(229, 0, 0, 0.00) 41.32%),#0F0F0F;
+    box-shadow: 2px 1px 2px -2px #d8d5d5;
     color:rgb(225, 225, 225);
 }
 .info span{

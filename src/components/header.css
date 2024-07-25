@@ -5,8 +5,8 @@
     align-items: center;
     padding: 1rem;
     width: 100%;
-    box-shadow: 2px 5px 5px 0px #d8d5d5;
-    background-color: black;
+    box-shadow: 2px 1px 2px -2px #d8d5d5;
+    background:linear-gradient(222deg, rgba(0, 172, 229, 0.5) -208.03%, rgba(229, 0, 0, 0.00) 41.32%),#0F0F0F;
 }
 .logo{
     width: 80px;
@@ -14,11 +14,15 @@
 }
 .title{
     position: relative;
+    margin: 0;
     font-size: 30px;
     font-weight: 500;
     text-transform: uppercase;
     color: white;
     text-align: justify;
+}
+.title::after{
+    content: "" !important;
 }
 .title span{
     color:rgb(0, 179, 255);

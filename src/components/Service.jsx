@@ -6,7 +6,7 @@ import langages from '../assets/langages.jpg';
 const Service = () => {
     return (
         <div className='service'>
-            <h1>Sur <span>Beauvais</span> appelez vite !</h1>
+            <h1 className='title-service'>Sur <span>Beauvais</span> appelez vite !</h1>
             <div className="text">
             <span className='number'>📱 06.60.40.09.24</span>
             <span className='number'><a className='link' href="mailto:guillaumesere60@gmail.com" target="_blank" rel="noreferrer">📧 guillaumesere60@gmail.com</a></span>

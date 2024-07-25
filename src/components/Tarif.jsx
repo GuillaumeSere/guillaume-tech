@@ -4,7 +4,7 @@ import './tarif.css';
 const Tarif = () => {
     return (
         <div className='container'>
-            <h1>Tarifs</h1>
+            <h1 className='tarif'>Tarifs</h1>
             <div className="box-container">
                 <div className="box">
                     <p>Le déplacement du technicien à domicile.</p>

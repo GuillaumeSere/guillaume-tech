@@ -1,6 +1,7 @@
 .container.contact__container{
     display: flex;
     justify-content: space-around;
+    margin-top: 5rem;
 }
 
 #contact{
@@ -8,8 +9,23 @@
 }
 
 .contacts{
+    position: relative;
+    text-align: center;
+    color:rgb(0, 179, 255);
     font-size: 2.5rem;
-    color: rgb(0, 179, 255);
+    margin-top: 2rem;
+    padding-bottom: 1rem ;
+}
+
+.contacts::after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    
+    background:linear-gradient(90deg,rgba(229, 0, 0, 0) 0%, rgb(0, 179, 255) 50%, rgba(229, 0, 0, 0) 100%);
 }
 
 .contact__options{
@@ -21,20 +37,21 @@
 }
 
 .contact__option{
-    background: rgb(0, 179, 255);
+    background: linear-gradient(90deg,#00b3ff 50%, #193843 100%);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     color:black;
     font-size: 25px;
-    border: 1px solid transparent;
     transition: all 400ms ease;
+    border: 1px solid transparent;
 }
 
 .contact__option:hover{
     background: transparent;
     border-color: rgb(0, 179, 255);
     color: rgb(225, 225, 225);
+    border: 1px solid rgb(0, 179, 255);
 }
 
 .contact__option-icon{
@@ -48,6 +65,7 @@
     text-decoration: none;
     color:black;
     font-size: 0.8rem;
+    font-weight: bold;
 }
 .contact__option:hover a{
     color: rgb(225, 225, 225);
@@ -61,8 +79,10 @@
     cursor: pointer;
 }
 .btn.btn-primary.contact:hover{
-    background-color: rgb(0, 179, 255);
+    background: linear-gradient(90deg,#00b3ff 50%, #193843 100%);
     color: rgb(225, 225, 225);
+    border: 2px solid transparent;
+    font-weight: bold;
 }
 
 form{

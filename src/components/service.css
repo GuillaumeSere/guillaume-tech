@@ -3,6 +3,9 @@
     margin-top: 3rem;
     color:rgb(225, 225, 225);
 }
+.title-service{
+    margin: 0;
+}
 .service span{
     color:rgb(0, 179, 255);
 }
