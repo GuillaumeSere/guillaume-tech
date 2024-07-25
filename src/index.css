@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(27, 27, 27);
+    background:linear-gradient(222deg, rgba(0, 172, 229, 0.5) -208.03%, rgba(213, 213, 213, 0) 41.32%),#0F0F0F;
     color: white;
     font-family: "Inconsolata", monospace;
 }
