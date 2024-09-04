@@ -25,14 +25,15 @@
   }
   
   .box {
-    background:linear-gradient(222deg, rgba(0, 172, 229, 0.5) -208.03%, rgba(229, 0, 0, 0.00) 41.32%),#0F0F0F;
+    background:linear-gradient(355deg, rgba(0, 172, 229, 0.5) -208.03%, rgba(229, 0, 0, 0.00) 41.32%),#0F0F0F;
     padding: 20px;
     margin: 1rem;
     box-shadow: 2px 1px 2px -2px #d8d5d5;
     border-radius: 15px;
     line-height: 2.5rem;
     letter-spacing: 1.5px;
-    text-align: center; 
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1); 
   }
   
   .box:nth-child(2n) {
@@ -40,8 +41,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background:linear-gradient(222deg, rgba(0, 172, 229, 0.5) -208.03%, rgba(213, 213, 213, 0) 41.32%),#0F0F0F;
+    background: linear-gradient(270deg,#00b3ff 50%, #193843 100%);
     font-size: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1); 
   }
 
   .box:nth-child(2n) span{
@@ -56,14 +58,14 @@
   .price{
     padding: 0.5rem;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-    background: linear-gradient(90deg,#00b3ff 0%, #193843 100%);
+    background: linear-gradient(90deg,#00b3ff 0%, #3b6f81  100%);
     color: black !important;
     border-radius: 20px;
   }
   .prices{
     padding: 0.5rem;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-    background: linear-gradient(90deg,#00b3ff 0%, #193843 100%);
+    background: linear-gradient(90deg,#00b3ff 0%, #3b6f81 100%);
     color: black !important;
     border-radius: 20px;
     margin-top: 2.5rem !important;
@@ -91,6 +93,7 @@
         background: linear-gradient(90deg,#00b3ff 0%, #193843 100%) !important;
         color: black !important;
         border-radius: 20px;
+        margin-top: 1.5rem;
       }
       
 }

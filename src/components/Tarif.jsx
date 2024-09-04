@@ -8,21 +8,23 @@ const Tarif = () => {
             <div className="box-container">
                 <div className="box">
                     <p>Le déplacement du technicien à domicile.</p>
-                    <p>Le déballage et l'installation de votre PC et de vos périphériques.</p>
+                    <p>L'installation de votre PC et de vos périphériques.</p>
+                    <p>La mise à jour et l'optimisation de votre PC et de vos périphériques.</p>
                     <p>La configuration de votre connexion internet.</p>
                     <p>Le contrôle du fonctionnement optimal de votre système, après installation.</p>
                 </div>
                 <div className="box">
-                    <span className='price'>60 € de l'heure</span><br />
-                    <span className='price'>30 € après la réduction d'impôts</span>
+                    <span className='price'>30 € de l'heure</span><br />
+                {/* <span className='price'>30 € après la réduction d'impôts</span>*/ }   
                 </div>
                 <div className="box">
                     <p>Formation et aides au démarches sur internet.</p>
                     <p>Installation d'applications au besoin</p>
+                    <p>Formation et aides à l'utilisation de l'intelligence artficielle</p>
                 </div>
                 <div className="box">
-                    <span className='price'>50 € de l'heure</span><br />
-                    <span className='price'>25 € après la réduction d'impôts</span>
+                    <span className='price'>25 € de l'heure</span><br />
+                   {/*<span className='price'>25 € après la réduction d'impôts</span>*/} 
                 </div>
                 <div className="box">
                     <p><strong><u>Introduction au codage</u>:</strong> Premiers pas avec la programmation</p>
@@ -55,7 +57,7 @@ const Tarif = () => {
                         Ressources pour un apprentissage et une pratique plus poussés</p>
                 </div>
                 <div className="box">
-                    <span className='prices'>150 € la prestation</span><br />
+                    <span className='prices'>100 € la prestation</span><br />
                 </div>
             </div>
         </div>

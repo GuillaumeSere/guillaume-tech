@@ -80,7 +80,7 @@
 }
 .btn.btn-primary.contact:hover{
     background: linear-gradient(90deg,#00b3ff 50%, #193843 100%);
-    color: rgb(225, 225, 225);
+    color: black;
     border: 2px solid transparent;
     font-weight: bold;
 }
