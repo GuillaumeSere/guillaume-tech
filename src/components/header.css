@@ -3,14 +3,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
     width: 100%;
-    box-shadow: 2px 1px 2px -2px #d8d5d5;
+    box-shadow: 2px 1px 2px -1px #d8d5d5;
     background:linear-gradient(222deg, rgba(0, 172, 229, 0.5) -208.03%, rgba(229, 0, 0, 0.00) 41.32%),#0F0F0F;
 }
 .logo{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 .title{
     position: relative;
