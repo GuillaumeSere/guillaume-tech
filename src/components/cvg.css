@@ -18,7 +18,7 @@
 }
 @keyframes moveArrow {
     0% {
-      transform: translateX(10); /* Position de départ */
+      transform: translateX(10px); /* Position de départ */
     }
     50% {
       transform: translateX(-10px); /* Déplace la flèche vers la gauche */
