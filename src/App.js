@@ -1,23 +1,16 @@
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Home from "./components/Home";
-import Map from "./components/Map";
-import Service from "./components/Service";
-import Tarif from "./components/Tarif";
+import CGV from './components/CGV';
+import { Route, Routes } from 'react-router-dom';
+import Page from './components/Page';
 
 function App() {
-  return (
-    <div className="App">
-        <Header />
-        <Service />
-        <Home />
-        <Tarif />
-        <Contact />
-        <Map />
-        <Footer />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Routes>
+                <Route path='/' element={<Page />} />
+                <Route path='/CGV' element={<CGV />} />
+            </Routes>
+        </div>
+    );
 }
 
 export default App;

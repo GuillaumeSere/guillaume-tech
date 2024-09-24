@@ -1,0 +1,9 @@
+.cvg{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5rem;
+    margin-top: -5rem;
+}

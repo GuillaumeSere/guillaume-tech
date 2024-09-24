@@ -1,0 +1,104 @@
+.containers{
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.back{
+    text-decoration: none;
+    color: white;
+    height: 80px;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    position: absolute;
+    left: 2rem;
+    animation: moveArrow 5s infinite; 
+}
+@keyframes moveArrow {
+    0% {
+      transform: translateX(10); /* Position de départ */
+    }
+    50% {
+      transform: translateX(-10px); /* Déplace la flèche vers la gauche */
+    }
+    100% {
+      transform: translateX(10px); /* Retour à la position de départ */
+    }
+  }
+.back svg{
+    width: 100px;
+    height: 60px;
+}
+h1{
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+h2{
+    margin-top: 1rem;
+    font-size: 28px;
+}
+.titles{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.titles span{
+    color:rgb(0, 179, 255);
+}
+.text-1 span,
+.text-2 span,
+.text-3 span,
+.text-4 span,
+.text-5 span,
+.text-6 span,
+.text-7 span,
+.text-8 span,
+.text-9 span,
+.text-10 span{
+    color:rgb(0, 179, 255);
+    margin-top: 2.5rem;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 1024px){
+    .titles{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .titles{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+       letter-spacing: 2px;
+       line-height: 30px;
+    }
+    .back{
+        left: 2rem;
+        top: 15rem;
+    }
+    .back svg{
+        width: 60px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 447px){
+    .back{
+        left: 2rem;
+        top: 17rem;
+    }
+}
