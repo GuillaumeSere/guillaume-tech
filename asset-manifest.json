@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/guillaume-tech/static/css/main.ad62d762.css",
-    "main.js": "/guillaume-tech/static/js/main.c0a73efe.js",
+    "main.js": "/guillaume-tech/static/js/main.43edc571.js",
     "static/media/logo.png": "/guillaume-tech/static/media/logo.d3a556f768e5779c39a8.png",
     "static/media/langages.jpg": "/guillaume-tech/static/media/langages.779b69db98d4d2e88f1e.jpg",
     "index.html": "/guillaume-tech/index.html",
     "main.ad62d762.css.map": "/guillaume-tech/static/css/main.ad62d762.css.map",
-    "main.c0a73efe.js.map": "/guillaume-tech/static/js/main.c0a73efe.js.map"
+    "main.43edc571.js.map": "/guillaume-tech/static/js/main.43edc571.js.map"
   },
   "entrypoints": [
     "static/css/main.ad62d762.css",
-    "static/js/main.c0a73efe.js"
+    "static/js/main.43edc571.js"
   ]
 }
