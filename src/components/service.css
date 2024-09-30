@@ -21,17 +21,15 @@
     color:rgb(0, 179, 255);
 }
 .langages{
-    position: absolute;
-    width: 80px;
-    padding-top: 0.5rem;
-    margin-left: 0.5rem;
+    width: 160px;
+    margin-top: 1rem;
 }
 .github{
-    position: absolute;
-    margin-left: -2rem;
-    margin-top: 0.7rem;
+    width: 50px;
 }
 .text{
+    max-width: 1400px;
+    margin: 0 auto;
     margin-top: 1rem;
     display: flex;
     line-height: 3rem;

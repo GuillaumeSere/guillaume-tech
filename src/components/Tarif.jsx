@@ -27,13 +27,13 @@ const Tarif = () => {
                     {/*<span className='price'>25 € après la réduction d'impôts</span>*/}
                 </div>
                 <div className="box">
-                    <p><strong><u>Introduction au codage</u>:</strong> Premiers pas avec la programmation</p>
+                    <p><strong><u>Introduction au codage</u></strong> Premiers pas avec la programmation</p>
                     <p>Dans ce cours d'initiation au codage de <span>2 heures</span> vous apprendrez les bases de la programmation
                         et acquerrez une expérience pratique du codage.
                         Vous commencerez par configurer votre propre environnement de codage,
                         notamment en installant un éditeur et en configurant votre espace de travail.</p>
                     <p>Langages: HTML, CSS, Javascript</p>
-                    <strong><u>Plan de cours</u>:</strong>
+                    <p><strong><u>Plan de cours</u></strong></p>
                     <p>Introduction au codage <span>(10 minutes) </span>
                         Qu'est-ce que le codage et pourquoi est-il important ?
                         Aperçu du cours et de ce que vous apprendrez.
@@ -60,11 +60,11 @@ const Tarif = () => {
                     <span className='prices'>100 € la prestation</span><br />
                 </div>
                 <div className="box">
-                    <p><strong><u>Création de Landing Page sur Mesure</u>:</strong></p>
+                    <p><strong><u>Création de Landing Page sur Mesure</u></strong></p>
                     <p>Vous souhaitez attirer plus de clients grâce à une présence en ligne professionnelle et efficace ?
                         Guillaume Tech vous propose un service de création de landing page sur mesure,
                         spécialement conçu pour répondre aux besoins de votre activité.</p>
-                    <p><strong><u>Ce que nous offrons</u>:</strong></p>
+                    <p><strong><u>Ce que nous offrons</u></strong></p>
                     <ul>
                         <li className='title-landing'>Design personnalisé :</li>
                         <li>Une page web moderne et ergonomique, adaptée à votre identité visuelle et à votre secteur d’activité.</li>
