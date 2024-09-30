@@ -3,8 +3,12 @@ import './cvg.css';
 import Header from './Header';
 import { IoMdArrowBack } from "react-icons/io";
 import { Link } from 'react-router-dom';
+import useScrollToTop from './hook/useScrollToTop';
 
 const CGV = () => {
+
+    useScrollToTop();
+    
     return (
         <>
         <Header />
