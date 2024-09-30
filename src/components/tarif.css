@@ -77,6 +77,16 @@
     color:rgb(0, 179, 255);
   }
 
+  .title-landing{
+    color:rgb(0, 179, 255);
+    list-style: none;
+  }
+
+  li{
+    list-style: none;
+    font-size: 20px;
+  }
+
   /* ================ media query (small) ===================== */
 @media screen and (max-width: 720px){
     .box-container{
@@ -93,6 +103,10 @@
         color: black !important;
         border-radius: 20px;
         margin-top: 1.5rem;
+      }
+      li{
+        list-style: none;
+        font-size: 14px;
       }
       
 }
