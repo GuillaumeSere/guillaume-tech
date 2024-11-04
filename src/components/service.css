@@ -3,6 +3,14 @@
     margin-top: 3rem;
     color:rgb(225, 225, 225);
 }
+.img-deco{
+    max-width: 500px;
+}
+.box-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .title-service{
     margin: 0;
 }
