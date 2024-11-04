@@ -4,6 +4,7 @@ import Header from './Header';
 import { IoMdArrowBack } from "react-icons/io";
 import { Link } from 'react-router-dom';
 import useScrollToTop from './hook/useScrollToTop';
+import ScrollToTopButton from './ScrollToTopButton';
 
 const CGV = () => {
 
@@ -81,6 +82,7 @@ const CGV = () => {
             </p>
 
         </div>
+        <ScrollToTopButton />
         </>
     )
 }
