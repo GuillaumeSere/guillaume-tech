@@ -7,6 +7,7 @@ import Map from "./Map";
 import Service from "./Service";
 import Tarif from "./Tarif";
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from "./ScrollToTopButton"; 
 import './page.css'
 
 const Page = () => {
@@ -20,6 +21,7 @@ const Page = () => {
             <Map />
             <Footer />
             <Link className='cvg' to='/CGV'>CGV</Link>
+            <ScrollToTopButton />
         </div>
     )
 }
