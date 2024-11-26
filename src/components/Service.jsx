@@ -8,16 +8,16 @@ import img2 from '../assets/course-3.svg';
 const Service = () => {
     return (
         <div className='service'>
-            <div className="text">
+            <div className="text1">
             <h1 className='title-service'>Sur <span>Beauvais</span> appelez vite !</h1>
             <span className='number'>📱 06.60.40.09.24</span>
             <span className='number'><a className='link' href="mailto:guillaumesere60@gmail.com" target="_blank" rel="noreferrer">📧 guillaumesere60@gmail.com</a></span>
             </div>
             <div className="box-image">
-            <img src={img1} className='img-deco' alt="" />
-            <img src={img2} className='img-deco' alt="" />
+            <img src={img1} className='img-deco1' alt="" />
+            <img src={img2} className='img-deco2' alt="" />
             </div>
-            <div className="text">
+            <div className="text2">
                 <h2>👍<u className='desc'>Services Proposés</u> : </h2>
                 <p> 🖥️ Formation de base en informatique (utilisation des ordinateurs, tablettes et smartphones) 💻<br />
                     📑 Assistance pour les démarches administratives en ligne (création de comptes divers avec sécurisation...) ⌨️<br />
