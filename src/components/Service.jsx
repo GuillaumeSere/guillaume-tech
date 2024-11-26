@@ -22,7 +22,8 @@ const Service = () => {
                 <p> 🖥️ Formation de base en informatique (utilisation des ordinateurs, tablettes et smartphones) 💻<br />
                     📑 Assistance pour les démarches administratives en ligne (création de comptes divers avec sécurisation...) ⌨️<br />
                     👨‍💻 Aide à l'utilisation des outils de communication, réseaux sociaux, logiciels d'accessibilité pour les personnes malvoyantes, ainsi que l'intelligence artificielle 👩‍💻<br />
-                    💽 Conseils et assistance technique (installation de logiciels, sécurité informatique...) 📥</p><br />
+                    💽 Conseils et assistance technique (installation de logiciels, sécurité informatique...) 📥<br />
+                    🗔 Création de site internet sur mesure (Une page web moderne et ergonomique, adaptée à votre identité visuelle et à votre secteur d’activité.) 🗔</p>
                 <div className="logo-code">
                     <img className='github' src={github} alt="github" />
                     <p>Premiers pas avec la programmation (Introduction au codage avec les langages de base: HTML, CSS, Javascript)</p>
