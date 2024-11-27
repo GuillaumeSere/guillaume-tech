@@ -60,6 +60,7 @@
     background: linear-gradient(90deg,#00b3ff 0%, #3b6f81  100%);
     color: black !important;
     border-radius: 20px;
+    animation: blink-animation 1s infinite;
   }
   .prices{
     padding: 0.5rem;
@@ -68,8 +69,13 @@
     color: black !important;
     border-radius: 20px;
     margin-top: 2.5rem !important;
+    animation: blink-animation 1s infinite;
   }
-  
+  @keyframes blink-animation {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
   .box span {
     position: relative;
     font-weight: bold;
