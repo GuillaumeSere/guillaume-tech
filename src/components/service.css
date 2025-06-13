@@ -5,21 +5,24 @@
 }
 .img-deco1{
     max-width: 500px;
-    animation: scale1 3s infinite alternate;
 }
 .img-deco2{
     max-width: 500px;
-    animation: scale2 3s infinite alternate;
 }
 
-@keyframes scale1 {
-    0% { transform: scale(1); }
-    100% { transform: scale(1.1); }
+/* Styles pour la vidéo */
+video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 2rem auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(0, 179, 255);
+    object-fit: cover;
+    aspect-ratio: 16/9;
 }
-@keyframes scale2 {
-    0% { transform: scale(1.1); }
-    100% { transform: scale(1); }
-}
+
 .box-image{
     display: flex;
     flex-wrap: wrap;
@@ -101,5 +104,8 @@ h3{
         font-size: 12px;
         max-width: 360px;
     }
-
+    video {
+        max-width: 100%;
+        margin: 1rem auto;
+    }
 }
