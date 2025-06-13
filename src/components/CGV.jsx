@@ -16,7 +16,7 @@ const CGV = () => {
         <div className='containers'>
         <Link  to='/' className='back'><IoMdArrowBack/></Link>
             <div className="titles">
-                <h1> Conditions Générales de Vente</h1>
+                <h1 className='title-cvg'> Conditions Générales de Vente</h1>
                 <h2> Guillaume <span>Tech</span> - Services Informatiques à la Personne</h2>
             </div>
 

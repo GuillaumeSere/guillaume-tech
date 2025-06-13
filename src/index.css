@@ -18,3 +18,131 @@ body{
     border-radius: 10px;
 }
 
+:root {
+    /* Variables pour le mode sombre (par défaut) */
+    --background-color: #0F0F0F;
+    --text-color: #ffffff;
+    --primary-color: rgb(0, 179, 255);
+    --secondary-color: #3b6f81;
+    --box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    --gradient: linear-gradient(90deg, #00b3ff 0%, #3b6f81 100%);
+    --box-bg:  linear-gradient(355deg, rgba(0, 172, 229, 0.5) -208.03%, rgba(229, 0, 0, 0.00) 41.32%),#0F0F0F;
+    --box-border: rgb(0, 179, 255);
+    --box-text: #ffffff;
+    --condition-vente: white;
+}
+
+/* Mode clair */
+.light-mode {
+    --background-color: #cbcbcb;
+    --text-color: #fdfdfd;
+    --primary-color: #0066cc;
+    --secondary-color: #063e92;
+    --box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    --gradient: linear-gradient(90deg, #0066cc 0%, #4d94ff 100%);
+    --box-bg:linear-gradient(355deg, rgba(0, 172, 229, 0.5) -208.03%, rgba(229, 0, 0, 0.00) 41.32%),#212121;
+    --box-border: #0066cc;
+    --box-text: #2c3e50;
+    --condition-vente: black;
+}
+
+/* Styles pour le bouton de basculement */
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: var(--box-bg);
+    border: 2px solid var(--box-border);
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    color: var(--text-color);
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+    background: var(--primary-color);
+    color: #ffffff;
+}
+
+/* Application des variables aux éléments */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+/* Styles pour les box et autres éléments */
+.box {
+    background: var(--box-bg);
+    box-shadow: var(--box-shadow);
+    color: var(--box-text);
+    transition: all 0.3s ease;
+    border: 2px solid var(--box-border);
+}
+
+.text1,.text2,.info, .header{
+    background: var(--box-bg) !important;
+}
+
+.box span, .price span, .prices span {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Styles spécifiques pour le mode clair */
+.light-mode .box {
+    background: var(--box-bg);
+    border-color: var(--box-border);
+}
+
+.light-mode .box span,
+.light-mode .price span,
+.light-mode .prices span {
+    color: var(--primary-color);
+}
+
+/* Ajustements pour les textes */
+h1{
+    color: var(--text-color) !important;
+}
+
+p, li {
+    color: var(--text-color);
+}
+
+.tarif,.contacts{
+    color: var(--box-border) !important;
+}
+.contact__option:hover{
+    background: var(--box-bg) !important;
+    color: var(--primary-color) !important;
+}
+.titles,
+.title-cvg,
+ .text-1,
+ .text-2,
+ .text-3,
+ .text-4,
+ .text-5,
+ .text-6,
+ .text-7,
+ .text-8,
+ .text-9,
+ .text-10{
+    color: var(--condition-vente) !important;
+}
+
+/* Ajustements pour les liens */
+a {
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
