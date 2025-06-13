@@ -46,5 +46,9 @@
         font-size: 14px;
         font-weight: 500;
     }
+    .theme-toggle{
+        padding: 0;
+        top: 13px;
+    }
 
 }
