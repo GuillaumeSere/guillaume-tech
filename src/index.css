@@ -117,6 +117,9 @@ p, li {
 .tarif,.contacts{
     color: var(--box-border) !important;
 }
+.light-mode .tarif::after,.light-mode .contacts::after{
+    background: linear-gradient(90deg,rgba(229, 0, 0, 0) 0%, rgb(45, 110, 231) 50%, rgba(229, 0, 0, 0) 100%) !important;
+}
 .contact__option:hover{
     background: var(--box-bg) !important;
     color: var(--text-color) !important;
