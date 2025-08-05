@@ -1,10 +1,10 @@
 import React from 'react';
 import './service.css';
-import github from '../assets/github.png';
-import langages from '../assets/langages.jpg';
-import img1 from '../assets/course-1.svg';
-import img2 from '../assets/course-3.svg';
-import video from '../assets/Guillaume Tech.mp4';
+import github from '../../assets/images/github.png';
+import langages from '../../assets/images/langages.jpg';
+import img1 from '../../assets/course-1.svg';
+import img2 from '../../assets/course-3.svg';
+import video from '../../assets/video/Guillaume Tech.mp4';
 
 const Service = () => {
     return (

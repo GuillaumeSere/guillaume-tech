@@ -4,7 +4,7 @@ import { SiNpm } from "react-icons/si";
 import { ImLinkedin } from "react-icons/im";
 import { ImGithub } from "react-icons/im";
 import { Player } from '@lottiefiles/react-lottie-player';
-import animation from '../assets/99312-developer-skills.json';
+import animation from '../../assets/99312-developer-skills.json';
 
 const Footer = () => {
     return (

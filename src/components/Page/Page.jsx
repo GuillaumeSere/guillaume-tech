@@ -1,13 +1,13 @@
 import React from 'react'
-import Contact from "./Contact";
-import Footer from "./Footer";
-import Header from "./Header";
-import Home from "./Home";
-import Map from "./Map";
-import Service from "./Service";
-import Tarif from "./Tarif";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
+import Home from "../Home/Home";
+import Map from "../Map/Map";
+import Service from "../Service/Service";
+import Tarif from "../Tarif/Tarif";
 import { Link } from 'react-router-dom';
-import ScrollToTopButton from "./ScrollToTopButton"; 
+import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton"; 
 import './page.css'
 
 const Page = () => {
