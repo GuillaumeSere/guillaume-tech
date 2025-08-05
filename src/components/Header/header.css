@@ -1,7 +1,7 @@
 .header{
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     box-shadow: 2px 1px 2px -1px #d8d5d5;
@@ -11,6 +11,9 @@
 .logo{
     width: 100px;
     height: 100px;
+}
+.description{
+    margin-right: 1rem;
 }
 .title{
     position: relative;
@@ -32,6 +35,10 @@
     font-size: 18px;
     font-weight: 500;
 }
+  .theme-toggle{
+        padding: 0;
+        top: 10px;
+    }
 .desc{
     color: white;
 }
@@ -45,10 +52,6 @@
         margin-top: .3rem;
         font-size: 14px;
         font-weight: 500;
-    }
-    .theme-toggle{
-        padding: 0;
-        top: 13px;
     }
 
 }
