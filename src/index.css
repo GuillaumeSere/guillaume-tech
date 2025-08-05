@@ -128,6 +128,9 @@ p, li {
     background: var(--box-bg) !important;
     color: var(--text-color) !important;
 }
+.light-mode .modal-message{
+    color: white !important;
+}
 .titles,
 .title-cvg,
  .text-1,
