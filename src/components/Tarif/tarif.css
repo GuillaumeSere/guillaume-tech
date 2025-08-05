@@ -86,7 +86,6 @@
   }
   .box span {
     position: relative;
-    display: inline-block;
     color: rgb(0, 179, 255);
     text-transform: uppercase;
     animation: waviy 1s infinite;

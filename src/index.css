@@ -36,7 +36,7 @@ body{
 .light-mode {
     --background-color: #cbcbcb;
     --text-color: #010101;
-    --primary-color: #0066cc;
+    --primary-color: #074686;
     --secondary-color: #063e92;
     --box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     --gradient: linear-gradient(90deg, #0066cc 0%, #4d94ff 100%);
@@ -89,7 +89,7 @@ body {
 }
 
 .box span, .price span, .prices span {
-    color: var(--primary-color);
+    color: var(--primary-color) !important;
     font-weight: 600;
 }
 
